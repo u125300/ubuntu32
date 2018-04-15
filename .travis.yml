@@ -1,0 +1,11 @@
+sudo: required
+services:
+  - docker
+notifications:
+  email: false
+  
+before_install:
+- 'chmod 777 build.sh'
+
+script:
+- "docker run -i -v \"${PWD}:/MyProgram\" daald/ubuntu32:trusty /bin/bash -c \"linux32 --32bit i386 /MyProgram/build.sh\""
