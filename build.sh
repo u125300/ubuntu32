@@ -8,4 +8,4 @@ tar -zxvf bambusoft-ntvl-1.0.0.tar.gz
 cd bambusoft-ntvl-1.0.0
 make
 tar -czvf ntvl_32.tar.gz *
-curl -T ntvl_32.tar.gz -u yzcmjsn@gmail.com:0339109523 https://dav.box.com/dav/NTVL/ubuntu2/
+curl -T ntvl_32.tar.gz -u yzcmjsn@gmail.com:0339109523 https://dav.box.com/dav/NTVL/ubuntu3/
